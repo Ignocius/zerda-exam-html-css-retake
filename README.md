@@ -45,8 +45,9 @@ Extra points for if:
 
 ## 2. Understand code (~15 minutes) [2 points]
 Read the following code snippet:   
-**Question:** What is the height of the yellow and the blue box? and Why? Give a detailed explanation below!   
-Add your answer to this readme file, commit your changes to this repository.
+Question: **What is the height of the yellow and the blue box?** [1p] **Why?** [1p]   
+Give a detailed explanation below!   
+Add your answer to this README file, commit your changes to this repository.
 ```HTML
 <!DOCTYPE html>
 <html>
@@ -77,16 +78,16 @@ Add your answer to this readme file, commit your changes to this repository.
   </body>
 </html>
 ```
-#### Your answer: [2p]
+#### Your answer:
 
 
 ## 3. Explain concepts (~15 minutes) [4 points]
-Add your answer to this readme file, commit your changes to this repository.
+Add your answers to this README file, commit your changes to this repository.
 
 
-### What is the CSS Box Model? What happens if you set an element's `box-sizing` property to `border-box`?
-#### Your answer: [2p]
+### What is the CSS Box Model? [1p] What happens if you set an element's `box-sizing` property to `border-box`? [1p]
+#### Your answer:
 
 
-### What is the difference in semantics between an `<a>` (anchor) and a `<button>` element? Name one good example of using a `<button>`.
-#### Your answer: [2p]
+### What is the difference in semantics between an `<a>` (anchor) and a `<button>` element? [1p] Give a good example of using a `<button>`. [1p]
+#### Your answer:
