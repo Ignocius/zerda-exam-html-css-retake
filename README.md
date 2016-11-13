@@ -1,4 +1,6 @@
 # Exam: HTML & CSS
+Time needed: ~120 minutes   
+100% is 16 points
 
 ### Getting Started
  - Fork this repository under your own account
@@ -7,7 +9,7 @@
 
 ### What can I use?
  - You can use any resource online, but **please work individually**
- - Instead of copy-pasting your answers and solutions, write them in your own words.
+ - **Don't just copy-paste** your answers and solutions, use your own words instead.
 
 
 # Tasks
@@ -16,7 +18,7 @@
 Build the following profile cards according to the design provided.   
 Follow the design as closely as possible.   
 Commit an HTML and a CSS file to this repository.
-![design](exercise-1.png)
+![design](task-1.png)
 
 ### Assets
 John Duck | Jane Duck | Pencil icon
@@ -24,51 +26,45 @@ John Duck | Jane Duck | Pencil icon
 ![duck](duck.jpg) | ![duck](duck2.jpg) | ![pencil-icon](edit-icon.png)   
 
 ### Other data
-  - Name font size: 28 pixels
+  - Name font size: 22 pixels
   - Text size: 14 pixels
   - Font family: Arial, sans-serif
 
 ### Acceptance criteria
 The task is accepted if:
   - The result follows design [2p]
-  - The code follows style guide [1p]
-  - The CSS & HTML are valid [1p]
+  - The code follows [style guide](https://github.com/greenfox-academy/teaching-materials/blob/master/styleguide/html-css.md) [1p]
+  - The CSS & HTML are [valid](https://validator.w3.org/) [1p]
   - The HTML considers semantic responsibilities [2p]
-  - The code avoids code duplication [2p]
+  - The CSS avoids code duplication [2p]
   - The CSS has meaningful and short selectors [2p]
 
 Extra points for if:
-  - the result is centered on the page [2p]
+  - the result is centered on the page both vertically and horizontally [2p]
 
 
 ## 2. Understand code (~15 minutes) [2 points]
 Read the following code snippet:   
-What is the distance between the top-left corner of the document body and the yellow box?   
-Give a detailed explanation below!   
+**Question:** What is the height of the yellow and the blue box? and Why? Give a detailed explanation below!   
 Add your answer to this readme file, commit your changes to this repository.
 ```HTML
 <!DOCTYPE html>
 <html>
   <head>
     <style>
-      body {
-        padding: 0px;
-        margin: 0px;
-      }
       .foo {
-        top: 20px;
-        left: 20px;
-        width: 100px;
-        height: 100px;
-        position: absolute;
         background: blue;
+        overflow: hidden;
+      }
+      .baz {
+        height: 100px;
+        width: 50px;
+        background: green;
       }
       .bar {
-        top: 20px;
-        left: 20px;
+        float: left;
         width: 30px;
-        height: 30px;
-        position: absolute;
+        height: 150px;
         background: yellow;
       }
     </style>
@@ -76,6 +72,7 @@ Add your answer to this readme file, commit your changes to this repository.
   <body>
     <div class="foo">
       <div class="bar"></div>
+      <div class="baz"></div>
     </div>
   </body>
 </html>
@@ -87,9 +84,9 @@ Add your answer to this readme file, commit your changes to this repository.
 Add your answer to this readme file, commit your changes to this repository.
 
 
-### Explain the difference between `display: block` and `display: inline` in CSS! What is `display: inline-block`?
+### What is the CSS Box Model? What happens if you set an element's `box-sizing` property to `border-box`?
 #### Your answer: [2p]
 
 
-### What is the difference between a `<section>` and an `<article>` element? Name one good example of using an `<article>`.
+### What is the difference in semantics between an `<a>` (anchor) and a `<button>` element? Name one good example of using a `<button>`.
 #### Your answer: [2p]
