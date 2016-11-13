@@ -55,7 +55,6 @@ Add your answer to this README file, commit your changes to this repository.
     <style>
       .foo {
         background: blue;
-        overflow: hidden;
       }
       .baz {
         height: 100px;
