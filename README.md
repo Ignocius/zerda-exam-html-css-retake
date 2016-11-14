@@ -78,7 +78,7 @@ Add your answer to this README file, commit your changes to this repository.
 </html>
 ```
 #### Your answer:
-	The height is 250px if we turn of the float left, but it's tricky because it is floated away, and therefore we can only see a part of its real height. Because of the float the yellow box is 150px, and the blue is 2/3 of it approx 100px. Elements with it's float left or right activated will be taken out of the normal html flow, and the next element will wrap arount it's left or right side.
+	The height is 250px if we turn of the float left, but it's tricky because it is floated away, and therefore we can only see a part of its real height. Because of the float the yellow box is 150px, and the blue is 2/3 of it approx 100px. Elements with it's float left or right activated will be taken out of the normal html flow, and the next element will wrap arount it's left or right side. In this case if we want to put other elements bellow this flow, we must use clear floats, to set back our normal html flow!
 
 ## 3. Explain concepts (~15 minutes) [4 points]
 Add your answers to this README file, commit your changes to this repository.
