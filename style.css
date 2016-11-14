@@ -1,3 +1,72 @@
 body {
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.namecard {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 200px;
+  background: ivory;
+}
+
+.namecard.female {
+  background: #ABB7E0;
+}
+
+/*-------Data design--------*/
+
+.namecard-data {
+  padding: 0 10px;
+}
+
+.namecard-data table {
+  text-align: left;
+}
+
+.namecard-data table:last-child {
+  margin-bottom: 13px;
+}
+
+.namecard-data td {
+  padding-left: 10px;
+}
+
+.namecard-data h1 {
+  font-size: 22px;
+  font-weight: normal;
+}
+
+.namecard img {
+  display: block;
+  width: 100%;
+  border-bottom: 8px solid #4F5E93;
+}
+
+/*--------Button design-----------*/
+
+.edit {
+  position: absolute;
+  display: block;
+  width: 24px;
+  height: 24px;
+  top: 225px;
+  right: 10px;
+  background: url('edit-icon.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
 }
