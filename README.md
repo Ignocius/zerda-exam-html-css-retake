@@ -93,5 +93,5 @@ Border-box : we can say it reverses our normal use of box-model, if we set box-s
 
 ### What is the difference in semantics between an `<a>` (anchor) and a `<button>` element? [1p] Give a good example of using a `<button>`. [1p]
 #### Your answer:
-For links we can use <a> tags, and not for form submission. And by the help of google, I find this interesting thing, search engine "crawlers" cannot follow links which are submitted by input or button, only <a>. So for SEO purposes it is better to use a! 
+For links we can use <a> tags, and not for form submission. And by the help of google, I find this interesting thing, search engine "crawlers" cannot follow links which are submitted by input or button, only a. So for SEO purposes it is better to use a! 
 If its a form we should use button or an input, because these can submit a form on pressing the enter button, and this can help us in a better accessibility. 
